@@ -36,6 +36,7 @@
 }
 
 .chatEmptyStateTitle {
+    font-family: norlysHeadline;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -48,6 +49,7 @@
 }
 
 .chatEmptyStateSubtitle {
+    font-family: norlysText;
     margin-top: 20px;
     font-style: normal;
     font-weight: 400;

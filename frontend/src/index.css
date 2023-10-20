@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: norlysHeadline;
+    src: url(assets/NORLYSHeadlineUIBETAVF.woff);
+  }
+  @font-face {
+    font-family: norlysText;
+    src: url(assets/NORLYSTextUIBETAVF.woff);
+  }  
+
 html,
 body {
     height: 100%;
@@ -11,7 +20,7 @@ body {
 
 html {
     background: #f2f2f2;
-    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-family: "norlysText", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

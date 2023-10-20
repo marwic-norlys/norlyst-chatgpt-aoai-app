@@ -10,6 +10,7 @@
 }
 
 .answerText {
+    font-family: norlysText;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -41,6 +42,7 @@
 }
 
 .answerDisclaimer {
+    font-family: norlysText;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

@@ -555,7 +555,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Start din chat</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>(eventuel feedback gerne til marwic@norlys.dk)</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>(Du snakker med gpt-35-turbo-16k, feedback til marwic@norlys.dk)</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
@@ -645,7 +645,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: disabledButton() ? "#BDBDBD" : "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)",
+                                            background: disabledButton() ? "#BDBDBD" : "#F8232D",
                                             cursor: disabledButton() ? "" : "pointer"
                                         },
                                     }}

@@ -78,7 +78,7 @@ const Layout = () => {
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
-                        <Link to="/" className={styles.headerTitleContainer}>
+                        <Link to="#" className={styles.headerTitleContainer}>
                             <h1 className={styles.headerTitle}>ChatGPT</h1>
                         </Link>
                     </Stack>

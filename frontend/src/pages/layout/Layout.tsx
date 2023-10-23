@@ -73,12 +73,14 @@ const Layout = () => {
                 // className={styles.headerContainer}
                 >
                     <Stack horizontal verticalAlign="center">
+                        <a href="https://llm-hrchatgpt-poc.azurewebsites.net" className={styles.headerIconLink}>
                         <img
                             src={Norlys}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
-                        <Link to="#" className={styles.headerTitleContainer}>
+                        </a>
+                        <Link to="https://llm-hrchatgpt-poc.azurewebsites.net" className={styles.headerTitleContainer}>
                             <h1 className={styles.headerTitle}>HR ChatGPT</h1>
                         </Link>
                     </Stack>

@@ -73,15 +73,15 @@ const Layout = () => {
                 // className={styles.headerContainer}
                 >
                     <Stack horizontal verticalAlign="center">
-                        <a href="https://llm-marketing-poc.azurewebsites.net/">
+                        <a href="https://llm-norlyschatgpt-poc.azurewebsites.net/">
                         <img
                             src={Norlys}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
                         </a>
-                        <Link to="https://llm-marketing-poc.azurewebsites.net/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>Marketing ChatGPT</h1>
+                        <Link to="https://llm-norlyschatgpt-poc.azurewebsites.net/" className={styles.headerTitleContainer}>
+                            <h1 className={styles.headerTitle}>ChatGPT</h1>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>

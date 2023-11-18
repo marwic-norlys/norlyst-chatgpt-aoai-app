@@ -81,7 +81,7 @@ const Layout = () => {
                         />
                         </a>
                         <Link to="https://llm-norlyschatgpt-poc.azurewebsites.net/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>ChatGPT</h1>
+                            <h1 className={styles.headerTitle}>ChatGPT-4 Turbo</h1>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>

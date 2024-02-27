@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ceaaaffa-fd95-4b28-8bef-a7d89daa66e1/resourceGroups/rg-datahjem-p-01/providers/Microsoft.Web/sites/llm-norlyschatgpt-poc",
+    "appService.deploySubpath": "."
+}

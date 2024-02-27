@@ -646,7 +646,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Start din chat</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>(Proof of Concept med GPT-4 Turbo. Feedback til marwic@norlys.dk)</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>(Proof of Concept med GPT-4 Turbo. Feedback til Data Science & AI.)</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
